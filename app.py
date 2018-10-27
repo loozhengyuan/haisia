@@ -9,5 +9,6 @@ app.register_blueprint(placeholder, url_prefix="/placeholder")
 def index():
     return "Hello World!"
 
+
 if __name__ == '__main__':
     app.run()
