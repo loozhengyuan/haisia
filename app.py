@@ -2,7 +2,7 @@ from flask import Flask, redirect, url_for
 from blueprints.placeholder import placeholder
 
 app = Flask(__name__)
-app.register_blueprint(placeholder, url_prefix="/placeholder")
+app.register_blueprint(placeholder, url_prefix="/api/placeholder")
 
 
 @app.route('/')
