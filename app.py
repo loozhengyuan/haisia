@@ -12,7 +12,7 @@ def index():
 
 @app.route('/api')
 def api():
-    return "Hello World!"
+    return "Welcome to API Server!"
 
 
 if __name__ == '__main__':
