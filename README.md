@@ -12,7 +12,7 @@ Uncle Mong is a chatbot based on the concept of brand mascots. It is created as 
 Install dependencies
 ```sh
 sudo apt update && sudo apt -y upgrade
-sudo apt install git
+sudo apt install git python3 python3-pip python3-dev
 ```
 
 Clone repo
