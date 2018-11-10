@@ -1,8 +1,7 @@
 from flask import Blueprint
 
-placeholder = Blueprint('placeholder', __name__)
+app = Blueprint('placeholder', __name__)
 
-
-@placeholder.route('/')
+@app.route('/')
 def index():
     return "Hello World!"
